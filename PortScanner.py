@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# Abraham Ruiz 2017
+# based on http://www.pythonforbeginners.com/code-snippets-source-code/port-scanner-in-python with added functionallity
+
 import socket, subprocess, sys, signal, time, os, shutil
 from datetime import datetime
 def printHelp():
