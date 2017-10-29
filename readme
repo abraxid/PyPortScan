@@ -1,0 +1,9 @@
+Simple python scanner
+
+Usage: scan | s <IP Address> [port] [port] To define a port, enter a port. To define a range, enter the\ntwo ports separated by a \"space\". If no ports are defined it will scan 1 through 1025.\nTo scan a range of hosts type xxx.xxx.xxx.aaa-bbb, where aaa is the starting address and bbb is the ending address
+file | f <path/to/file>    reads from a file as described above\n
+cd <arg>    changes directory to arg
+pwd    returns the full path of the current directory
+ls    lists the fiels and folders in current directory
+help | h  show help
+exit    exits the script
